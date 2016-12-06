@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="en">
 <head>
     <!-- Meta Properties -->
@@ -8,7 +8,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/main.css" />
     <!-- Audio -->
-    <audio id="split_cell" src=""></audio>
+    <audio id="split_cell" src="audio/split.mp3"></audio>
     <audio id="spawn_cell" src="audio/spawn.mp3"></audio>
 </head>
 <body>
@@ -26,11 +26,12 @@
     </div>
     <div id="startMenuWrapper">
         <div id="startMenu">
-            <p>Nbkio.ml</p>
+            <p>Open Agar</p>
             <input type="text" tabindex="0" autofocus placeholder="Enter your name here" id="playerNameInput" maxlength="25" />
             <b class="input-error">Nick must be alphanumeric characters only!</b>
             <br />
-            <a onclick="document.getElementById('spawn_cell').play();"><button id="startButton">Play</button></a>
+            
+			<a onclick="document.getElementById('spawn_cell').play();"><img id="playButton" class="" alt="" src="img/play.png" /></a>
             <button id="spectateButton">Spectate</button>
             <button id="settingsButton">Settings</button>
             <br />
