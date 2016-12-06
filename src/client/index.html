@@ -1,14 +1,14 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
 <head>
     <!-- Meta Properties -->
     <meta charset="UTF-8">
-    <title>Agar.IO Clone</title>
+    <title>Nbk.io</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
     <!-- CSS -->
     <link rel="stylesheet" href="css/main.css" />
     <!-- Audio -->
-    <audio id="split_cell" src="audio/split.mp3"></audio>
+    <audio id="split_cell" src=""></audio>
     <audio id="spawn_cell" src="audio/spawn.mp3"></audio>
 </head>
 <body>
@@ -26,12 +26,11 @@
     </div>
     <div id="startMenuWrapper">
         <div id="startMenu">
-            <p>Open Agar</p>
+            <p>Nbk.io</p>
             <input type="text" tabindex="0" autofocus placeholder="Enter your name here" id="playerNameInput" maxlength="25" />
             <b class="input-error">Nick must be alphanumeric characters only!</b>
             <br />
-            
-			<center><a onclick="document.getElementById('spawn_cell').play();"><img id="playButton" class="" alt="" src="img/play.png" /></a></center>
+            <a onclick="document.getElementById('spawn_cell').play();"><button id="startButton">Play</button></a>
             <button id="spectateButton">Spectate</button>
             <button id="settingsButton">Settings</button>
             <br />
